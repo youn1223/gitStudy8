@@ -37,9 +37,9 @@ public class MovieInsertController {
 			return mav;
 		}
 		
-		// master 추가함, kim 수정
 		// master 추가함
-		// kim 추가함
+		// master 추가함
+		
 		int cnt = -1; 
 		cnt = movieDao.insertMovie(movie);
 		
