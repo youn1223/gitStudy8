@@ -24,7 +24,7 @@ public class MovieListController {
 	@Autowired
 	MovieDao movieDao; 
 	
-	@RequestMapping(value = command)
+	@RequestMapping(value = command) 
 	private ModelAndView list(
 			@RequestParam(value = "whatColumn", required = false) String whatColumn, 
 			@RequestParam(value = "keyword", required = false) String keyword,

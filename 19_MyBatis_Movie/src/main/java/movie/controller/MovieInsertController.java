@@ -40,7 +40,7 @@ public class MovieInsertController {
 		// master 추가함, kim 수정
 		// master 추가함
 		// kim 추가함
-		int cnt = -1;
+		int cnt = -1; 
 		cnt = movieDao.insertMovie(movie);
 		
 		if(cnt != -1) {	
