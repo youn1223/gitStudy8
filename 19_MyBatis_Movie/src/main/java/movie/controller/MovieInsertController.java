@@ -26,7 +26,7 @@ public class MovieInsertController {
 	public String doAction() {
 		return getPage;
 	}
-
+  
 	// 
 	@RequestMapping(value=command, method = RequestMethod.POST)
 	public ModelAndView doAction(@ModelAttribute("movie") @Valid MovieBean movie, BindingResult result) {
