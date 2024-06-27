@@ -33,7 +33,7 @@ public class MovieInsertController {
 		ModelAndView mav = new ModelAndView();
 
 		if(result.hasErrors()) {
-			mav.setViewName(getPage); // movieInsertForm
+			mav.setViewName(getPage); // movieInsertForm  
 			return mav;
 		}
 		
